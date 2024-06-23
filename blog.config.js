@@ -551,5 +551,5 @@ const BLOG = {
   BUNDLE_ANALYZER: process.env.ANALYZE === 'true' || false, // 是否展示编译依赖内容与大小
   VERSION: process.env.NEXT_PUBLIC_VERSION // 版本号
 }
- 
+
 module.exports = BLOG
