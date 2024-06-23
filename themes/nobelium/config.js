@@ -15,3 +15,4 @@ const CONFIG = {
   NOBELIUM_AUTO_COLLAPSE_NAV_BAR: true // 页头导航栏动画
 }
 export default CONFIG
+ 
