@@ -116,6 +116,12 @@ const NavBar = props => {
       name: locale.NAV.ARCHIVE,
       href: '/archive',
       show: siteConfig('NOBELIUM_MENU_ARCHIVE', null, CONFIG)
+    },
+    {
+      icon: 'fas fa-tag',
+      name: locale.COMMON.ABOUT,
+      href: '/about',
+      show: siteConfig('NOBELIUM_MENU_TAG', null, CONFIG)
     },    
     {
       id: 2,
