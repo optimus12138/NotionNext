@@ -95,7 +95,7 @@ const NavBar = props => {
   let links = [
     {
       id: 2,
-      icon: 'fas fa-search',
+      icon: 'fas fa-rss',
       name: locale.NAV.RSS,
       href: '/feed',
       show:
