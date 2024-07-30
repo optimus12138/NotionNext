@@ -12,6 +12,9 @@ const Style = () => {
         background-color: black;
     }
 
+    .notion {
+   font-size: 1.5rem;
+    }
   `}</style>
 }
 
