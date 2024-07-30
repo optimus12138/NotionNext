@@ -13,7 +13,7 @@ const Style = () => {
     }
 
     .notion {
-   font-size: 1.5 rem;
+   font-size: 1.7 rem;
     }
   `}</style>
 }
