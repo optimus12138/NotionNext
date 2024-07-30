@@ -94,16 +94,6 @@ const NavBar = props => {
   const { locale } = useGlobal()
   let links = [
     {
-      id: 2,
-      icon: 'fas fa-rss',
-      name: locale.NAV.RSS,
-      href: '/feed',
-      show:
-        siteConfig('ENABLE_RSS') &&
-        siteConfig('NOBELIUM_MENU_RSS', null, CONFIG),
-      target: '_blank'
-    },
-    {
       icon: 'fas fa-search',
       name: locale.NAV.SEARCH,
       href: '/search',
@@ -126,7 +116,17 @@ const NavBar = props => {
       name: locale.COMMON.TAGS,
       href: '/tag',
       show: siteConfig('NOBELIUM_MENU_TAG', null, CONFIG)
-    }
+    },    
+    {
+      id: 2,
+      icon: 'fas fa-rss',
+      name: locale.NAV.RSS,
+      href: '/feed',
+      show:
+        siteConfig('ENABLE_RSS') &&
+        siteConfig('NOBELIUM_MENU_RSS', null, CONFIG),
+      target: '_blank'
+    },
   ]
   if (customNav) {
     links = links.concat(customNav)
