@@ -29,7 +29,7 @@ export const BlogListPage = props => {
           <BlogPost key={post.id} post={post} />
         ))}
       </div>
-
+ 
       <div className='flex justify-between text-xs'>
         <Link
           href={{
